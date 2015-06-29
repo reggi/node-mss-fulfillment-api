@@ -1,0 +1,20 @@
+{
+  "name": "spexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Reggi",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "csv": "^0.4.5",
+    "debug": "^2.2.0",
+    "ftp": "^0.3.10",
+    "moment": "^2.10.3",
+    "stream-to-promise": "^1.0.4",
+    "underscore": "^1.8.3"
+  }
+}
