@@ -63,6 +63,11 @@ function inventory(creds){
       return file.unix_timestamp
     }).value()
 
+    if(orderedFiles.length === 0){
+      throw new Error("No File Found");
+
+      return;
+    }
     // get the last item in the sorted array
     var latestFile = _.last(orderedFiles)
 
