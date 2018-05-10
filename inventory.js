@@ -40,7 +40,7 @@ function inventory(creds){
     return c.onAsync("ready")
   }).then(function(){
     // change directory into the inventory folder
-    return c.cwdAsync("./Inventory")
+    return c.cwdAsync("./")
   }).then(function(list){
     // list all files in inventory folder
     return c.listAsync()
